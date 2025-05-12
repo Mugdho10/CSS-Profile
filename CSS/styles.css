@@ -1,26 +1,71 @@
 body {
     margin: 0;
-    background-color: #E4F9F5;
+    background-color: #09122C;
     text-align: center;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+h1 {
+    font-family: "Sacramento", cursive;
+    margin-bottom: 0%;
+    font-size: 4em;
+    position: relative;
+    top: 336px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: aliceblue;
+    font-size: 1.7em;
+}
+
+p {
+    color: aliceblue;
+    padding: 30px 200px 80px;
 }
 
 img {
-    height: 750px;
+    height: 748px;
     top: 0%;
     left: 0%;
     object-fit: fill;
     position: absolute;
+    padding: 0;
 }
 
 span {
     text-decoration: underline;
 }
 
+
+
+
+.my-role {
+    font-family: monospace;
+    padding: 0;
+    position: relative;
+    top: 370px;
+    font-size: 1.2em;
+}
+
 .container {
     position: absolute;
-    height: 70%;
-    left: 23%;
-    top: 42%;
+    height: 60%;
+    left: 26%;
+    top: 6%;
+    padding: 0;
+}
+
+.my-pic {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 400px;
 }
 
 .top-container {
@@ -29,3 +74,53 @@ span {
     font-size: 30px;
 }
 
+.middle-container {
+    position: relative;
+    top: 480px;
+}
+
+.bottom-container {
+    position: relative;
+    top: 750px;
+}
+.intro {
+    line-height: 2;
+    word-spacing: 2.5px;
+}
+
+.skills-header {
+    font-size: 3em;
+}
+
+.skill-row {
+    padding-top: 1px;
+    padding-bottom: 150px;
+}
+
+.WD {
+    position: relative;
+    height: 400px;
+}
+
+.CN {
+    position: relative;
+    height: 400px;
+}
+
+.PR {
+    position: relative;
+    height: 400px;
+}
+
+.GR {
+    position: relative;
+    height: 400px;
+}
+
+.SP {
+    position: relative;
+    height: 450px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
