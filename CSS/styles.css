@@ -70,6 +70,12 @@ span {
     padding: 60px 0 0 0;
 }
 
+.profile-hr {
+    border: dotted 10px #09122C;
+    border-bottom: 0;
+    width: 8%;
+}
+
 .my-pic {
     position: relative;
     height: 400px;
@@ -157,7 +163,7 @@ span {
     word-spacing: 2.5px;
     font-weight: normal;
     font-size: 1rem;
-    padding: 20px;
+    padding: 0 30px 0 30px;
 }
 
 
