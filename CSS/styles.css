@@ -7,10 +7,11 @@ body {
 
 h1 {
     font-family: "Sacramento", cursive;
+    margin-top: 0%;
     margin-bottom: 0%;
     font-size: 7rem;
     position: relative;
-    top: 336px;
+    padding-top: 40px;
 }
 
 h2 {
@@ -48,15 +49,6 @@ a:hover {
     color: #EAF6F6;
 }
 
-img {
-    height: 748px;
-    top: 0%;
-    left: 0%;
-    object-fit: fill;
-    position: absolute;
-    padding: 0;
-}
-
 span {
     text-decoration: underline;
 }
@@ -66,25 +58,21 @@ span {
 
 .my-role {
     font-family: monospace;
-    padding: 0;
+    padding-bottom: 2%;
     position: relative;
-    top: 370px;
     font-size: 2.5rem;
     font-weight: normal;
+    bottom: 0%;
 }
 
-.container {
-    position: absolute;
-    height: 60%;
-    left: 26%;
-    top: 6%;
-    padding: 0;
+.background-image {
+    position: contain;
+    height: 300px;
+    padding: 60px 0 0 0;
 }
 
 .my-pic {
     position: relative;
-    top: 0;
-    bottom: 0;
     height: 400px;
 }
 
@@ -95,13 +83,14 @@ span {
 }
 
 .middle-container {
+    padding-top: 10%;
     position: relative;
-    top: 480px;
+    background-color: #183B4E;
 }
 
 .bottom-container {
     position: relative;
-    top: 500px;
+    background-color: #09122C;;
 }
 
 .intro {
