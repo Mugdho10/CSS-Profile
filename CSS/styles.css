@@ -23,7 +23,7 @@ h3 {
     font-family: "Montserrat", sans-serif;
     color: aliceblue;
     font-size: 1.7rem;
-    line-height: 10;
+    line-height: 5; 
     margin: auto;
 }
 
@@ -41,7 +41,6 @@ p {
 a {
     color: #11999E;
     font-family: "Montserrat", sans-serif;
-    margin: 10px 20px;
     text-decoration: none;
 }
 
@@ -105,7 +104,7 @@ span {
 
 .skill-row {
     padding-top: 1px;
-    padding-bottom: 150px;
+    padding-bottom: 4%;
     margin: auto;
     width: 50%;
 }
@@ -113,31 +112,28 @@ span {
 .WD {
     position: relative;
     height: 400px;
-    float: left;
     margin-bottom: 0;
     margin-top: 50px;
+    padding: 0;
 }
 
 .PR {
     position: relative;
     height: 350px;
-    float: right;
-    padding-bottom: 150px;
+    padding-bottom: 2%;
 }
 
 .CN {
     position: relative;
     height: 350px;
-    float: left;
-    padding-bottom: 120px;
+    padding-bottom:  2%;
 }
 
 
 .GR {
     position: relative;
     height: 350px;
-    float: right;
-    padding-bottom: 180px;
+    padding-bottom:  2%;
 }
 
 .SP {
@@ -145,7 +141,6 @@ span {
     height: 350px;
     margin-top: 0;
     padding-top: 0;
-    float: left;
 }
 
 .contact-header {
@@ -209,8 +204,15 @@ span {
    text-decoration: none;
 }
 
+.footer-link {
+    padding: 20px 5px 20px 5px;
+}
+
+
 .footer-text {
     color: #EAF6F6;
     font-size: 0.7rem;
     font-weight: 1;
+    padding: 0;
+    margin-top: 3%;
 }
